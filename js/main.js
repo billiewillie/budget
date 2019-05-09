@@ -186,8 +186,11 @@ var controller = (function (budgetctrl, UIctrl) {
     budgetctrl.calculateBudget();
     budget = budgetctrl.getBudget();
     UIctrl.displayBudget(budget);
-
   };
+
+  function updatePercentages() {
+
+  }
 
   function ctrlAddItem() {
     var input, newItem;
